@@ -24,7 +24,6 @@ def build_scenario(builder):
   builder.config().game_duration = 3000
   builder.config().right_team_difficulty = 1.0
   builder.config().left_team_difficulty = 1.0
-  builder.config().end_episode_on_score = True
   builder.config().deterministic = False
   if builder.EpisodeNumber() % 2 == 0:
     first_team = Team.e_Left
